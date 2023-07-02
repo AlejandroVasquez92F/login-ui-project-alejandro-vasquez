@@ -1,0 +1,47 @@
+<!--
+    This is a simple Login UI project I worked on in Cohort 236 at Bay Valley Tech.
+    The aim was to design the interface only using flexbox (no margin/padding).
+
+    credits: (this was made possible due to the help of these sources.)
+        - https://fonts.google.com/
+        - https://coolors.co/
+        - https://flexbox.malven.co/
+-->
+<!--
+    MVP:
+    [x] - The Login box must be centered in the screen and stay in the center of the screen even as you resize the web-browser window.
+    [x] - You must use flexbox, not margin, padding, or position to achieve this.
+    [ ] - The login box should have a minimum size, and the input fields or text in the box should not leak out of the box.
+    [x] - The login box should have box-shadow and rounded edges.
+    [x] - The login box should have a username and password input field, with placeholder text like in the photo.
+    [x] - The text entered into the password field must be hidden (with asterisks or circles)
+    [x] - The login box should have a button.
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="./images/red-beta-fish-logo.png">
+    <title>Log in to Envy</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 id="container-title">Log in to Envy</h1>
+        <form id="container-input-section" action="#" method="post">
+            <input class="input-field" id="username" type="text" name="username" placeholder="username">
+            <input class="input-field" id="password" type="password" name="password" placeholder="password">
+        </form>
+        <div id="container-button-section">
+            <button class="ui-button" id="login-button" type="submit">Log in</button>
+            <button class="ui-button" id="forgot-password-button">Forgot password</button>
+        </div>
+    </div>
+</body>
+
+</html>

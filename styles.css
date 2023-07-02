@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #2D3142;
+    
+    height: 100vh;
+    width: 100vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: #191B24;
+    
+    height: 500px;
+    width: 400px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    border-radius: 15px;
+
+    -webkit-box-shadow: 5px 5px 10px 5px rgba(0,0,0,0.25);
+    -moz-box-shadow: 5px 5px 10px 5px rgba(0,0,0,0.25);
+    box-shadow: 5px 5px 10px 5px rgba(0,0,0,0.25);
+}
+
+.input-field {
+    width: 75%;
+    height: 45px;
+    font-size: 16px;
+}
+
+.ui-button {
+    width: 65%;
+    height: 35px;
+    font-size: 16px;
+
+    border-radius: 20px;
+
+    border: none;
+    outline: none;
+
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#container-title {
+    color: white;
+
+    height: 80px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container-input-section {
+    height: 140px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#container-button-section {
+    height: 120px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#login-button {
+}
+
+#login-button:hover {
+    background-color: #3DB866;
+}
+
+#forgot-password-button {
+    background-color: transparent;
+    outline: 1px solid white;
+    color: white;
+}
+
+#forgot-password-button:hover {
+    background-color: #075E9D;
+}
