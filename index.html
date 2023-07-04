@@ -18,7 +18,6 @@
     [x] - The login box should have a button.
 -->
 
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -27,7 +26,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/png" href="./images/red-beta-fish-logo.png">
-    <title>Log in to Envy</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -39,9 +41,15 @@
         </form>
         <div id="container-button-section">
             <button class="ui-button" id="login-button" type="submit">Log in</button>
-            <button class="ui-button" id="forgot-password-button">Forgot password</button>
+            <button class="ui-button" id="forgot-password-button">Forgot password?</button>
+        </div>
+        <div id="sign-up-section">
+            <span>Don't have an account?&nbsp;</span>
+            <a href="#">Sign up</a>
         </div>
     </div>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
