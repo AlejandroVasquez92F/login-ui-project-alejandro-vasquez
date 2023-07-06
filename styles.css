@@ -9,7 +9,8 @@ body {
     background-color: #2D3142;
     background-image: linear-gradient(to bottom right, #424861, #3A3F55, #2D3142, #292D3D, #212431);
 
-    height: 100vh;
+    height: 100%;
+    min-height: 100vh; /*added to keep page from breaking when the window is too short.*/
     width: 100vw;
 
     display: flex;
