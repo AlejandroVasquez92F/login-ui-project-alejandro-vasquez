@@ -11,7 +11,8 @@ body {
 
     height: 100%;
     min-height: 100vh; /*added to keep page from breaking when the window is too short.*/
-    width: 100vw;
+    width: 100%;
+    min-width: 100vw; /*this shouldn't do much, but added just incase.*/
 
     display: flex;
     justify-content: center;
